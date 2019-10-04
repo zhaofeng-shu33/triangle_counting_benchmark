@@ -7,7 +7,7 @@ cache:
 addons:
   apt:
     sources:
-      - sourcelines: 'ppa:zhaofeng-shu33/liblemon'
+      - sourceline: 'ppa:zhaofeng-shu33/liblemon'
     packages:
       - triangle-counting
 script:
