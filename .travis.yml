@@ -1,5 +1,18 @@
 os: linux
 dist: xenial
 language: cpp
+cache:
+  directories:
+    - /tmp/livejournal
+addons:
+  apt:
+    sources:
+      - sourcelines: 'ppa:zhaofeng-shu33/liblemon'
+    packages:
+      - triangle-counting
 script:
-  - ls
+  - |
+    if [[ ! -f /tmp/livejournal ]]; then 
+      tar -xzf soc-LiveJournal1.bin.tar.gz -C /tmp/livejournal 
+    fi
+  - lemon-tc -f /tmp/livejournal/soc-LiveJournal1.bin
