@@ -15,4 +15,4 @@ script:
     if [[ ! -f /tmp/livejournal ]]; then 
       tar -xzf soc-LiveJournal1.bin.tar.gz -C /tmp/livejournal 
     fi
-  - lemon-tc -f /tmp/livejournal/soc-LiveJournal1.bin
+  - /usr/bin/time lemon-tc -f /tmp/livejournal/soc-LiveJournal1.bin
