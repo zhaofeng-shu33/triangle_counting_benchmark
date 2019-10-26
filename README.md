@@ -1,4 +1,5 @@
 [![Build Status](https://api.travis-ci.com/zhaofeng-shu33/triangle_counting_benchmark.svg?branch=master)](https://travis-ci.com/zhaofeng-shu33/triangle_counting_benchmark/)
+[![Gitlab](https://gitlab.com/zhaofeng-shu33/triangle_counting_self-hosted_runner/badges/master/pipelines.svg)](https://gitlab.com/zhaofeng-shu33/triangle_counting_self-hosted_runner)
 
 ## Baseline
 
