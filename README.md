@@ -3,12 +3,12 @@
 
 ## Baseline
 
-| dataset                   | Max NodeId  | claimed edges | N(V)      | N(E)          | N(T)           |
-| ------------------------- | ----------- | ------------- | --------- |-------------- | -------------- |
-| soc-LiveJournal1.bin      | 4,847,571   | 68,993,773    | 4,847,571 | 42,851,237    | 285,730,264    |
-| s24.kron.edgelist.bin     | 16,777,216  | 268,435,456   | 8,871,830 | 260,379,850   | 10,286,638,314 |
-| s28.e15.kron.edgelist.bin | 268,435,456 | 4,026,531,840 |           | 3,973,862,397 |                |
-| s29.e10.kron.edgelist.bin | 536,870,909 | 5,368,709,120 |           | 5,333,466,522 |                |
+| dataset                   | Max NodeId  | claimed edges | N(V)      | N(E)          | N(T)              |
+| ------------------------- | ----------- | ------------- | --------- |-------------- | ----------------- |
+| soc-LiveJournal1.bin      | 4,847,571   | 68,993,773    | 4,847,571 | 42,851,237    | 285,730,264       |
+| s24.kron.edgelist.bin     | 16,777,216  | 268,435,456   | 8,871,830 | 260,379,850   | 10,286,638,314    |
+| s28.e15.kron.edgelist.bin | 268,435,456 | 4,026,531,840 |           | 3,973,862,397 | 199,196,078,202   |
+| s29.e10.kron.edgelist.bin | 536,870,909 | 5,368,709,120 |           | 5,333,466,522 |                   |
 
 The homepage of LiveJournal dataset is hosted at [stanford](https://snap.stanford.edu/data/soc-LiveJournal1.html), both datasets are temporarily accessible at [LiveJournal1](http://datafountain.int-yt.com/BDCI2019/FeiMa/soc-LiveJournal1.bin) and [s24-kron](http://datafountain.int-yt.com/BDCI2019/FeiMa/s24.kron.edgelist.bin). These temporary data download links may be invalid. Notice that the record may have self looped edges and some edge occurs twice in the form (u, v) and (v, u) but some occurs only once. These details need some preprocessing task. Also the label of the node may not be continuous from 0 to |V| -1. Some mapping conversion is necessary.
 
